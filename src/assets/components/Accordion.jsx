@@ -1,3 +1,4 @@
+import AccordionItem from './AccordionItem.jsx';
 import languages from './languages.js';
 
 export default function Accordion () {
@@ -6,16 +7,12 @@ export default function Accordion () {
             <div className='accordion-btns'>
                 <ul>
                     {languages.map((item => (
-                        <li><button>{item.title}</button></li>
+                        <li key={item.id}><button>{item.title}</button></li>
                     )))}
                 </ul>
             </div>
             {languages.map((item => (
-                <div key={item.id} className='accordion-item'>
-                    <div className='accordion-content'>
-                        <p>{item.description}</p>
-                    </div>
-                </div>
+                <AccordionItem key={item.id} description={item.description} />
             )))}
         </div>
     )
