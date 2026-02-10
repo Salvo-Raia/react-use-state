@@ -10,8 +10,8 @@ export default function Accordion () {
         <div className='accordion-wrapper'>
             <div className='accordion-btns'>
                 <ul>
-                    {languages.map((item) => (
-                        <Buttons item={item} selectedIndex={selectedIndex} setselectedIndex= {setselectedIndex}/>
+                    {languages.map((item, index) => (
+                        <Buttons key={index} item={item} selectedIndex={selectedIndex} setselectedIndex= {setselectedIndex}/>
                     ))}
                 </ul>
             </div>

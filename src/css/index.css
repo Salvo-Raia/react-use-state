@@ -77,6 +77,7 @@ button:focus-visible {
   padding: 20px;
   border: 1px solid white;
   border-radius: 15px;
+  min-height: 120px;
 }
 
 .accordion-item h2 {
