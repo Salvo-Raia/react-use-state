@@ -42,7 +42,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ff9e1f;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -52,6 +52,39 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Accordion */
+
+.accordion-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.accordion-btns ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.accordion-item {
+  text-align: left;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.accordion-item h2 {
+  margin: 0;
+}
+
+.btn-active {
+  background-color: #747bff;
 }
 
 @media (prefers-color-scheme: light) {
@@ -66,17 +99,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-
-.accordion-btns ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.accordion-item {
-  text-align: left;
-  padding: 20px;
-  border: 1px solid white;
-}
-
