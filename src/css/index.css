@@ -67,6 +67,7 @@ button:focus-visible {
 
 .accordion-btns ul {
   list-style: none;
+  padding: 0;
   display: flex;
   justify-content: center;
   gap: 15px;
