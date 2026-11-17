@@ -1,6 +1,8 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 34/50 - First Steps with useState
+# 🎓 Exercise 34/50: First Steps with useState
+
+Building an interactive React interface with useState to manage selected languages, dynamically update displayed content, and create reusable components with props.
 
 ## 📌 Project Overview
 
@@ -25,31 +27,30 @@ The application must include:
 
 Use React's `useState` hook to manage the selected language and update the interface.
 
-## ⭐ Bonus
+### ⭐ Bonus
 
-### 1. Handle Empty Selection
+#### 1. Handle Empty Selection
 
 If no language is selected, the detail card must display:
 
 `No language selected`
 
-### 2. Highlight the Selected Button
+#### 2. Highlight the Selected Button
 
 Give the button corresponding to the currently selected language a different color, making the active selection immediately recognizable.
 
-### 3. Create a Separate Detail Card Component
+#### 3. Create a Separate Detail Card Component
 
 Extract the detail card into a dedicated React component while preserving all its functionality.
 
-### 4. Create Separate Button Components
+#### 4. Create Separate Button Components
 
 Extract the buttons into separate React components while preserving all their functionality.
 
 ## 🛠️ Technologies
 
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![JSX](https://img.shields.io/badge/JSX-6A1B9A?style=flat-square&logo=react&logoColor=F7DF1E&labelColor=6A1B9A&color=6A1B9A) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
 
 ## 💡 What I Learned
 
@@ -63,4 +64,4 @@ Extract the buttons into separate React components while preserving all their fu
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
