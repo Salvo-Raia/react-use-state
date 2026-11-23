@@ -8,7 +8,7 @@ Building an interactive React interface with useState to manage selected languag
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| react-use-state | First Steps with useState | Exercise | React useState, props & Components  | 34/50 |
+| react-use-state | First Steps with useState | Exercise | React, useState, props & Components  | 34/50 |
 
 ## Assignment
 
@@ -26,13 +26,12 @@ Use React's `useState` hook to manage the selected language and update the inter
 
 #### Bonus challenge
 
+Try to implement the following additional features.
+
 - If no language is selected, the detail card must display:
 `No language selected`
-
 - Give the button corresponding to the currently selected language a different color, making the active selection immediately recognizable.
-
 - Extract the detail card into a dedicated React component while preserving all its functionality.
-
 - Extract the buttons into separate React components while preserving all their functionality.
 
 ## Technologies
